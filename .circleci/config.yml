@@ -19,4 +19,4 @@ jobs:
       - checkout 
       - run: 
           name: Run tests 
-          command: sudo apt update
+          command: chmod +x yes.sh && ./yes.sh
